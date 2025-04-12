@@ -3,76 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JR ACADÉMIE JJB</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-  <!-- Estilo interno ou pode mover para style.css -->
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      margin-bottom: 30px;
-    }
-
-    .logo {
-      width: 100px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 28px;
-      color: #2c3e50;
-    }
-
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-
-    @media (max-width: 600px) {
-      header {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .logo {
-        width: 80px;
-      }
-    }
-  </style>
+  <title>JR ACADEMIE JJB</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <img src="logo.png.jpg" alt="Logo JR Académie JJB" class="logo">
-      <h1>JR ACADÉMIE JJB</h1>
-    </header>
+  <header>
+    <img src="logo.png.jpg" alt="Logo JR Académie JJB" class="logo">
+    <h1>JR ACADEMIE JJB</h1>
+  </header>
 
-    <p>Oferecemos aulas de Jiu-Jitsu Brasileiro com e sem kimono (submission/grappling), voltadas para:</p>
+  <p>Oferecemos aulas de Jiu-Jitsu Brasileiro com e sem kimono (submission/grappling), voltadas para:</p>
+  <ul>
+    <li>Crianças</li>
+    <li>Adolescentes</li>
+    <li>Adultos</li>
+    <li>Mulheres</li>
+  </ul>
 
-    <ul>
-      <li>Crianças</li>
-      <li>Adolescentes</li>
-      <li>Adultos</li>
-      <li>Mulheres</li>
-    </ul>
-  </div>
+  <p>Seja você iniciante ou avançado, temos uma turma ideal para o seu nível!</p>
+  <p>Também oferecemos <strong>aulas particulares</strong> e treinos personalizados.</p>
+
+  <nav>
+    <a href="#sobre">Sobre</a> |
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>A JR Académie JJB é focada na formação técnica, física e ética de seus alunos, com professores experientes.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@jracademiejjb.com</p>
+    <p>Instagram: <a href="https://instagram.com/jracademiejjb" target="_blank">@jracademiejjb</a></p>
+  </section>
 </body>
 </html>
